@@ -1,0 +1,11 @@
+body, section, article, header, footer, nav, aside, main, address { border: 1px solid red; margin: 3px; padding: 2px; }
+body::before, section::before, article::before, header::before, footer::before, nav::before, aside::before, main::before, address::before { display: inline; font-size: 10px; }
+body::before { content: "body"; }
+section::before { content: "section"; }
+article::before { content: "article"; }
+header::before { content: "header"; }
+footer::before { content: "footer"; }
+nav::before { content: "nav"; }
+aside::before { content: "aside"; }
+main::before { content: "main"; }
+address::before { content: "address"; }
