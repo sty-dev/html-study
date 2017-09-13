@@ -1,6 +1,7 @@
 @charset "UTF-8";
 header {margin:1em 0;}
-header[role="banner"], article, footer, section {margin:2.4em 0;}
+header[role="banner"] {margin:0 0 2.4em;}
+article, footer, section {margin:2.4em 0;}
 body > footer {margin-bottom: 0;}
 
 h1, h2, h3, h4, h5, h6 {position: relative;padding-left:0.4em;}
