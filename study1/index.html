@@ -1,31 +1,44 @@
 <!doctype html>
 <html lang="ja">
-  <head>
+<head>
     <title>トップ｜HTML講習会</title>
-    <link rel="stylesheet" href="https://drive.google.com/open?id=0B14yYr5efOTsblRxYlJiVnJNaWs">
-  </head>
-  <body>
+<!--
+    <link id="style1" rel="stylesheet" href="https://rawgit.com/sty-dev/html-study/master/study1/style.css"-->
+</head>
+<body>
     <div class="container">
-      <header role="banner">
-        <h1>HTMLの基本構造 - ランク１</h1>
-        <nav role="navigation">
-          <a href="#">メニューA</a>
-          <a href="#">メニューB</a>
-        </nav>
-      </header>
-      
-      <main>
-        <article>
-          <h2>HTMLを作る要素 - ランク２</h2>
-          <p>HTMLはファイルは、"html要素"によって文章の範囲を設定し、"head要素"で概要を記述し、"body要素"に実際の内容を記述していきます。 - パラグラフ</p>
-        </article>
-      </main>
-      
-      <footer>
-        <h3>その他のHTMLを作る要素 - ランク2</h3>
-        <a href="#">メニュー1</a>
-        <a href="#">メニュー2</a>
-      </footer>
+        <header role="banner">
+            <h1>セクションを表す要素</h1>
+            <nav role="navigation">
+                <h2 id="nav">nav要素</h2>
+                <p>nav要素は、そのページにおける<mark>ナビゲーションリンクを含むセクション</mark>を表します。<br>ただし、nav要素の内容は読み上げブラウザにおいては、ユーザーが素早くページのナビゲーションにアクセスする、またはナビゲーションを飛ばしてコンテンツ部分にアクセスすることに利用されるため、主要なナビゲーションにだけ使用してください。</p>
+                <a href="#article">article要素</a>
+                <a href="#section">section要素</a>
+                <a href="#aside">aside要素</a>
+                <a href="#nav">nav要素</a>
+            </nav>
+        </header>
+
+        <main>
+            <article>
+                <h2 id="article">article要素</h2>
+                <p>articleとは"記事"のことで、article要素は記事を表すほか、「<mark>それだけで全部の/それだけで完結している</mark>」セクションを表す場合に使用します。記事全体の一部を表すようなときは使用できませんので、section要素など適切なものを使用しましょう。<br>あらゆるflowコンテンツを内包できますが、唯一、main要素のみ子要素として持てません。</p>
+            </article>
+
+            <section>
+                <h2 id="section">section要素</h2>
+                <p>section要素は、<mark>汎用のセクション</mark>を表す要素です。</p>
+            </section>
+        </main>
+
+        <aside>
+            <h2 id="aside">aside要素</h2>
+            <p>aside要素は、その内容が<mark>それを含んでいるセクションの内容とは関係が薄く、別扱いにするべき内容のセクション</mark>を記述する際に使用します。（広告・補足記事・本文の一部抜粋など）<br>aside要素もarticle要素同様、main要素以外のあらゆる要素を内包できます。</p>
+        </aside>
+
+        <footer>
+            <small>Copyright &copy; 2017 Stylement Inc. All rights reserved.</small>
+        </footer>
     </div>
-  </body>
+</body>
 </html>
