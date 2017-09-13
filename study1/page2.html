@@ -4,6 +4,7 @@
     <title>学習2｜HTML講習会</title>
 <!--
     <link id="style1" rel="stylesheet" href="https://rawgit.com/sty-dev/html-study/master/study1/style.css"-->
+    <link id="styleC" rel="stylesheet" href="">
 </head>
 <body>
     <div class="container">
@@ -11,10 +12,10 @@
             <h1>セクションを補足する要素</h1>
             <nav role="navigation">
                 <h2 id="nav">メニュー</h2>
+                <a href="#header">header要素</a>
                 <a href="#main">main要素</a>
-                <a href="#section">section要素</a>
-                <a href="#aside">aside要素</a>
-                <a href="#nav">nav要素</a>
+                <a href="#footer">footer要素</a>
+                <a href="#address">address要素</a>
             </nav>
         </header>
 
@@ -40,7 +41,7 @@
 
         <footer>
             <h2 id="address">address要素</h2>
-            <p>address要素は、自分自身を含む<mark>もっとも近いarticle要素またはbody要素の内容に関する問い合わせ先情報</mark>を示す要素です。<code>&lt;article&gt;&lt;/article&gt;</code></p>
+            <p>address要素は、自分自身を含む<mark>もっとも近いarticle要素またはbody要素の内容に関する問い合わせ先情報</mark>を示す要素です。裏を返せば、article要素に含まれていない場合は、すべてbody要素の問い合わせ先を示していることになります。（ページ内に複数のaddressが入ることが無いように注意しましょう。）</p>
             <address>
               お問い合わせは下記のメールアドレスまでお願いいたします。<br><a href="mailto:arai_takayuki@stylement.co.jp">arai_takayuki@stylement.co.jp</a>
             </address>

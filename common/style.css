@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body, section, article, header, footer, nav, aside, main, address { border: 1px solid red; margin: 3px; padding: 2px; }
 body, header, footer, main, address { border-style: dashed; }
 body::before, section::before, article::before, header::before, footer::before, nav::before, aside::before, main::before, address::before { display: block; font-size: 10px; }
