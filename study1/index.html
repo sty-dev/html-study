@@ -1,15 +1,16 @@
 <!doctype html>
 <html lang="ja">
 <head>
-    <title>トップ｜HTML講習会</title>
+    <title>学習1 | HTML講習会</title>
+    <meta charset="utf-8">
 <!--
     <link id="style1" rel="stylesheet" href="https://rawgit.com/sty-dev/html-study/master/common/style.css"-->
-    <link id="styleC" rel="stylesheet" href="https://rawgit.com/sty-dev/html-study/master/common/common.css">
+    <link id="styleC" rel="stylesheet" href="/common/common.css">
 </head>
 <body>
     <div class="container">
         <header role="banner">
-            <h1>セクションを表す要素</h1>
+            <h1>学習1</h1>
             <nav role="navigation">
                 <h2 id="nav">nav要素</h2>
                 <p>nav要素は、そのページにおける<mark>ナビゲーションリンクを含むセクション</mark>を表します。<br>ただし、nav要素の内容は読み上げブラウザにおいては、ユーザーが素早くページのナビゲーションにアクセスする、またはナビゲーションを飛ばしてコンテンツ部分にアクセスすることに利用されるため、主要なナビゲーションにだけ使用してください。</p>
@@ -22,12 +23,16 @@
 
         <main>
             <article>
-                <h2 id="article">article要素</h2>
-                <p>articleとは"記事"のことで、article要素は記事を表すほか、「<mark>それだけで全部の/それだけで完結している</mark>」セクションを表す場合に使用します。記事全体の一部を表すようなときは使用できませんので、section要素など適切なものを使用しましょう。<br>あらゆるflowコンテンツを内包できますが、唯一、main要素のみ子要素として持てません。</p>
+                <h2>セクションを表す要素</h2>
+
+                <section>
+                    <h3 id="article">article要素</h3>
+                    <p>articleとは"記事"のことで、article要素は記事を表すほか、「<mark>それだけで全部の/それだけで完結している</mark>」セクションを表す場合に使用します。記事全体の一部を表すようなときは使用できませんので、section要素など適切なものを使用しましょう。<br>あらゆるflowコンテンツを内包できますが、唯一、main要素のみ子要素として持てません。</p>
+                </section>
             </article>
 
             <section>
-                <h2 id="section">section要素</h2>
+                <h3 id="section">section要素</h3>
                 <p>section要素は、<mark>汎用のセクション</mark>を表す要素です。</p>
             </section>
         </main>
@@ -38,6 +43,7 @@
         </aside>
 
         <footer>
+            <p><a href="./page2.html">次へ&raquo;</a></p>
             <address>
               お問い合わせは下記のメールアドレスまでお願いいたします。<br><a href="mailto:arai_takayuki@stylement.co.jp">arai_takayuki@stylement.co.jp</a>
             </address>
