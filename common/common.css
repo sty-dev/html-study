@@ -1,2 +1,7 @@
 @charset "UTF-8";
-header, article, footer, section {margin-bottom:2em;}
+header {margin:1em 0;}
+header[role="banner"], article, footer, section {margin:2.4em 0;}
+body > footer {margin-bottom: 0;}
+
+h1, h2, h3, h4, h5, h6 {position: relative;padding-left:0.4em;}
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {content:"";display:block;position:absolute;top:50%;transform:translateY(-50%);left:0;width:0.2em;height:90%;background-color:skyblue;}
