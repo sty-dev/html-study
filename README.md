@@ -49,3 +49,10 @@
 
 6. 番外 まとめ・ディスカッション
     + 総括
+
+
+## 参考資料
+
++ [W3C : HTML5.1](https://www.w3.org/TR/html51/)
++ [Mozilla Developer Network : HTML](https://developer.mozilla.org/ja/docs/Web/HTML)
++ [Mozilla Developer Network : CSS](https://developer.mozilla.org/ja/docs/Web/CSS)
